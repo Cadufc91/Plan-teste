@@ -21,6 +21,7 @@
 .form-table input{
     background-color: transparent;
     border: 0.01rem solid white;
+    color: white;
     opacity: 50%;
     border-top-right-radius: 1rem;
 }
@@ -37,6 +38,16 @@
     margin-right: 2rem;
 }
 
+#email,
+#tel{
+    transition: ease-in-out, width 0.35s ease-in-out;
+}
+
+#email:focus,
+#tel:focus{
+    width: 15rem;
+}
+
 .form-table textarea{
     background-color: transparent;
     border: 0.02rem solid #77787a;
@@ -48,14 +59,22 @@
 
 .submit-section{
     align-items: center;
+    cursor: pointer;
     display: flex;
     flex-direction: row;
 }
 
 .submit-section h5{
-    cursor: pointer;
     opacity: 50%;
     text-transform: uppercase;
+    transition: all 0.4s ease-in-out;
+}
+
+.submit-section h5:hover{
+    opacity: 100%;
+    padding: 0.3rem;
+    background: white;
+    color: black;
 }
 
 .social{
@@ -93,6 +112,18 @@
     transition: all 0.3s ease-in-out;
 }
 
+.facebook:hover{
+    background-color: #4267B2;
+}
+
+.instagram:hover{
+    background-color: #bc2a8d;
+}
+
+.youtube:hover{
+    background-color: #FF0000;
+}
+
 .address-top{
     display: flex;
     flex-direction: row;
@@ -121,6 +152,13 @@
     font-weight: 100;
     text-transform: uppercase;
     opacity: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.address-map-title:hover{
+    color: white;
+    font-weight: bold;
+    opacity: 1;
 }
 
 .companies1 img{
@@ -145,6 +183,12 @@
     font-weight: 100;
     opacity: 50%;
     transition: all 0.3s ease-in-out;
+}
+
+.companies-cta:hover{
+    color: white;
+    font-weight: bold;
+    opacity: 1;
 }
 
 .companies2 img{

@@ -20,6 +20,10 @@
     font-weight: 100;
 }
 
+.section-subtitle span:hover{
+    transform: scale(1.1);
+}
+
 .subtitle{
     font-weight: 100;
     margin-top: -1rem;
@@ -111,6 +115,7 @@
 }
 
 .card-more-info{
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -120,6 +125,12 @@
 .more-info{
     font-weight: 100;
     opacity: 50%;
+}
+
+.more-info:hover{
+    font-weight: bold;
+    color: white;
+    opacity: 1;
 }
 
 .card2{
