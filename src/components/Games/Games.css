@@ -7,7 +7,32 @@
 }
 
 .description{
-    display: none;
+    font-weight: 100;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.title-link{
+    font-weight: 100;
+    font-size: 0.57rem;
+}
+
+.title-section{
+    font-weight: 100;
+    margin-top: -1rem;
+    opacity: 50%;
+}
+
+.section-info{
+    font-weight: 100;
+    margin-top: -1rem;
+    opacity: 50%;
+}
+
+.section-details{
+    font-weight: 100;
+    font-size: 0.8rem;
+    opacity: 50%;
 }
 
 .game-example{
@@ -21,6 +46,10 @@
 .game-example-item1{
     margin-left: 0.5rem;
     width: 33%;
+}
+
+.bold-text{
+    font-weight: bold;
 }
 
 .game-example-item1 img{
