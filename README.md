@@ -4,11 +4,17 @@ Live Demo (later)
 
 # Changelog
 
+## [4.3.0] 29.04.2022
+
+**Added**
+
+- Responsividade Desktop na secao Games adicionada
+
 ## [4.2.0] 29.04.2022
 
 **Added**
 
-- Responsividade Desktop adicionada
+- Responsividade Desktop no Header adicionada
 
 ## [4.1.0] 29.04.2022
 

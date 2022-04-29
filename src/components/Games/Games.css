@@ -99,3 +99,14 @@
     opacity: 50%;
     text-decoration: none;
 }
+
+@media screen and (min-width: 426px){
+    #o-que-fazemos{
+        flex-direction: row;
+        height: 100vh;
+        width: 83%;
+        float: right;
+        margin-top: -5rem;
+        margin-bottom: 3rem;
+    }
+}
