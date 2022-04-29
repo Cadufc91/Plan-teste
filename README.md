@@ -4,7 +4,19 @@ Live Demo (later)
 
 # Changelog
 
-## [4.0.0] 29.02.2022
+## [4.2.0] 29.04.2022
+
+**Added**
+
+- Responsividade Desktop adicionada
+
+## [4.1.0] 29.04.2022
+
+**Added**
+
+- Transicoes de botoes em todas as secoes
+
+## [4.0.0] 29.04.2022
 
 **Added**
 
