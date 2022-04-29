@@ -4,7 +4,13 @@ Live Demo (later)
 
 # Changelog
 
-## [3.0.0] 29.04.2022
+## [4.0.0] 29.02.2022
+
+**Added**
+
+- Secao 'Contact' (JSX e CSS)
+
+## [3.0.1] 29.04.2022
 
 **Added**
 
