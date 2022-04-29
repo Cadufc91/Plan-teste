@@ -1,0 +1,61 @@
+#o-que-fazemos{
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.5rem;
+}
+
+.description{
+    display: none;
+}
+
+.game-example{
+    display: flex;
+    flex-direction: row;
+    font-weight: 100;
+    font-size: 0.9rem;
+    width: 100vw;
+}
+
+.game-example-item1{
+    margin-left: 0.5rem;
+    width: 33%;
+}
+
+.game-example-item1 img{
+    width: 100%;
+}
+
+.game-example-item2{
+    margin-left: 0.5rem;
+    width: 33%;
+}
+
+.game-example-item2 img{
+    width: 100%;
+}
+
+.game-example-item3{
+    margin: 0 0.5rem;
+    width: 33%;
+}
+
+.game-example-item3 img{
+    width: 100%;
+}
+
+.game-example2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+    margin: 2rem 0;
+    width: 50%;
+}
+
+.cta-games a{
+    color: white;
+    opacity: 50%;
+    text-decoration: none;
+}
