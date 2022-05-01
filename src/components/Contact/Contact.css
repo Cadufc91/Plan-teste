@@ -211,6 +211,10 @@
 
     }
 
+    .form-title{
+        font-size: 2.69rem;
+    }
+
     .form-table-contact span{
         display: flex;
         flex-direction: column;
