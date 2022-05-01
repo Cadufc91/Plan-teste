@@ -29,7 +29,7 @@ const Cases = () => {
             <Swiper className='content-cards'
             slidesPerView={1}
             spaceBetween={30}
-            loop={false}
+            loop={true}
             centeredSlides={true}
             autoplay={{
               delay: 2500,
@@ -38,8 +38,14 @@ const Cases = () => {
             pagination={{
               clickable: true,
             }}
+            breakpoints={{
+                426: {
+                    slidesPerView: 5,
+                }
+            }}
             navigation={true}
-            modules={[Autoplay, Pagination, Navigation]}>
+            modules={[Autoplay, Pagination, Navigation]}
+            >
                 <SwiperSlide className='card1'>
                     <img src={SKA} alt="" />
                     <a href='#SKA' className='card-tag'>SKA</a>

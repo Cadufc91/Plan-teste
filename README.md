@@ -4,6 +4,12 @@ Live Demo (later)
 
 # Changelog
 
+## [4.4.0] 01.05.2022
+
+**Added**
+
+- Responsividade Desktop na secao Contato adicionada
+
 ## [4.3.0] 29.04.2022
 
 **Added**
